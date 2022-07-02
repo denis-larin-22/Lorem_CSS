@@ -24,7 +24,7 @@ ul {
     flex-direction: column;
 }
 
-.main {
+.main, .images {
     flex-grow: 1;
 }
 
@@ -40,6 +40,7 @@ ul {
     justify-content: space-between;
 }
 
+
 .lorem-link, .link {
     text-decoration: none;
     color: white;
@@ -51,11 +52,19 @@ ul {
     line-height: 41px;
 }
 
+.lorem-link:hover {
+    color: blueviolet;
+}
+
 .link {
     font-weight: 300;
     font-size: 15px;
     line-height: 15px;
     padding-right: 40px;
+}
+
+.link:hover {
+    color: blueviolet;
 }
 
 .link:last-child {
@@ -87,7 +96,7 @@ ul {
     padding-top: 229px;
 }
 
-.main-text {
+.main-text, .cool-text {
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
@@ -107,6 +116,16 @@ ul {
     line-height: 18px;
     text-align: right;
 }
+
+.cool {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
 
 
 
