@@ -35,9 +35,12 @@ ul {
 
 .header-nav {
     padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.lorem-link, .ipsum-link, .dolor-link, .sit-link, .amet-link {
+.lorem-link, .link {
     text-decoration: none;
     color: white;
 }
@@ -46,25 +49,17 @@ ul {
     font-weight: 300;
     font-size: 25px;
     line-height: 41px;
-    padding-right: 668px;
 }
 
-.ipsum-link, .dolor-link, .sit-link, .amet-link {
+.link {
     font-weight: 300;
     font-size: 15px;
     line-height: 15px;
+    padding-right: 40px;
 }
 
-.ipsum-link {
-    padding-right: 48px;
-}
-
-.dolor-link {
-    padding-right: 56px;
-}
-
-.sit-link {
-    padding-right: 87px;
+.link:last-child {
+    padding-right: 0;
 }
 
 .flex-container {
