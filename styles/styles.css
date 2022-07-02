@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.page-wrap {
+    min-height: 100vh;
+    background-color: #1C1C1C;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    padding-top: 35px;
+}
+
+.lorem-link, .ipsum-link, .dolor-link, .sit-link, .amet-link {
+    text-decoration: none;
+    color: white;
+}
+
+.lorem-link {
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 41px;
+    padding-right: 668px;
+}
+
+.ipsum-link, .dolor-link, .sit-link, .amet-link {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.ipsum-link {
+    padding-right: 48px;
+}
+
+.dolor-link {
+    padding-right: 56px;
+}
+
+.sit-link {
+    padding-right: 87px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.h1, .h2 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55px;
+    padding-left: 62px;
+}
+
+.h1 {
+    font-weight: 300;
+    padding-top: 229px;
+}
+
+.h2 {
+    padding-bottom: 240;
+}
+
+.main-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: right;
+    padding-top: 280px;
+    padding-right: 19px;
+}
+
+.links {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 24px;
+}
+
+.signature{
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+}
+
+.footer {
+    padding: 35px 0;
+}
+
+
+
