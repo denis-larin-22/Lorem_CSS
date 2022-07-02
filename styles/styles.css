@@ -68,21 +68,23 @@ ul {
     justify-content: space-between;
 }
 
-
-.h1, .h2 {
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 55px;
-    padding-left: 62px;
-}
-
-.h1 {
-    font-weight: 300;
+.main {
     padding-top: 229px;
 }
 
-.h2 {
-    padding-bottom: 240;
+.h1 {
+    padding-left: 62px;
+}
+
+.h1, .bold {
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.bold {
+    font-weight: 700;
+    padding-top: 229px;
 }
 
 .main-text {
@@ -90,7 +92,6 @@ ul {
     font-size: 20px;
     line-height: 20px;
     text-align: right;
-    padding-top: 280px;
     padding-right: 19px;
 }
 
